@@ -8,10 +8,14 @@
 </head>
 <body>
     <h1>Salom </h1>
-    <h3>Javohir</h3>
+    
+    <ul>
+        {% for i in leads %}
+        <li> {{i}} </li>  
+        {% endfor %}
+        
+    </ul>
 
-     <h4>{{ name }}</h4>
-     <h5>{{ age }}</h5>
-
+      
 </body>
 </html>
